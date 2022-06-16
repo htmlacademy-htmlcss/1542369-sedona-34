@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Гостиницы Седоны
-    </title>
+    <title>Гостиницы Седоны</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -62,8 +63,6 @@
             </a>
           </li>
         </ul>
-      </header>
-      <section class="catalog-products">
         <h2 class="visually-hidden">Каталог гостиниц с фильтрами
         </h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -118,14 +117,16 @@
           <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Стоимость, Р:
               </legend>
-              <input type="number" class="price-filter" min="0" name="price-min">
-              <input type="number" class="price-filter" min="0" name="price-max">
+              <input type="number" class="price-filter" min="0" name="price-min" placeholder="от">
+              <input type="number" class="price-filter" min="0" name="price-max" placeholder="до">
           </fieldset>
           <button class="button button-apply" type="submit">Применить
           </button>
           <button class="button button-reset" type="reset">Сбросить
           </button>
         </form>
+       </header>
+       <section class="catalog-products">
           <div class="sorting">
             <p class="filter-result">Найдено гостиниц: 
               <span class="filter-result-number">38
