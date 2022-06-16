@@ -113,6 +113,9 @@
   }
 
   .button {
+    border: none;
+    font-family: inherit;
+    font-style: normal;
     color: #FFFFFF;
     text-decoration: none;
     text-transform: uppercase;
@@ -172,15 +175,12 @@
     opacity: 0.6;
   }
 
-  button {
-    border: none;
-  }
-
   .newsletter-button {
     background: #83B3D3;
     border-radius: 0px 10px 10px 0px;
     font-size: 20px;
     line-height: 26px;
+    font-weight: 700;
     /*display: flex;*/
     align-items: center;
     text-align: center;
@@ -225,6 +225,7 @@
     background: #F2F2F2;
     border-radius: 4px;
     font-weight: 700;
+    font-family: inherit;
   }
 
   .date-error {
