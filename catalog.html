@@ -47,8 +47,9 @@
         </ul>
       </nav>
     </header>
-    <main class="main-inner">
+    <main class="main-container main-inner">
       <header class="inner-header">
+        <div class="inner-header-container">
         <h1 class="inner-header-title">Гостиницы Седоны
         </h1>
         <ul class="breadcrumbs">
@@ -63,9 +64,10 @@
             </a>
           </li>
         </ul>
-        <h2 class="visually-hidden">Каталог гостиниц с фильтрами
+        <h2 class="visually-hidden" hidden>Каталог гостиниц с фильтрами
         </h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+        <div class="catalog-filter-container">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура
             </legend>
@@ -124,7 +126,9 @@
           </button>
           <button class="button button-reset" type="reset">Сбросить
           </button>
+        </div>
         </form>
+        </div>
        </header>
        <section class="catalog-products">
           <div class="sorting">
@@ -291,13 +295,13 @@
           <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!
           </p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" required>
+            <input class="newsletter-field field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" required>
             <button class="button newsletter-button" type="submit">
               Подписаться
             </button>
           </form>
       </section>
-      <footer class="page-footer">
+      <footer class="page-footer-container page-footer">
           <section class="footer-social">
             <h2 class="visually-hidden">Ссылки на соц. сети
             </h2>
